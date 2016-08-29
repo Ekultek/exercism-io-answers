@@ -5,7 +5,7 @@ import re
 
 
 def word_count(sentence):
-    """Works but fails one"""
+    """Works but fails one with emoji"""
 
     result = defaultdict(int)
 
