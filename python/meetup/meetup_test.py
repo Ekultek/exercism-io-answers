@@ -3,7 +3,7 @@ import unittest
 
 from meetup import meetup_day
 
-try:
+try: 
     from meetup import MeetupDayException
 except ImportError:
     MeetupDayException = Exception
